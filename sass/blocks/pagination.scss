@@ -1,0 +1,17 @@
+.pagination {
+  margin-bottom: 40px;
+  font-size: 0;
+
+  &__button {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    vertical-align: top;
+    white-space: nowrap;
+    border: $border-main;
+    cursor: pointer;
+    &:first-child {
+      border-right: none;
+    }
+  }
+}
