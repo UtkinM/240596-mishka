@@ -6,6 +6,22 @@
   background-repeat: no-repeat;
   background-position: center top;
 
+  @include respond-to("medium") {
+    border-top: $border-main;
+    margin-top: -61px;
+    background-size: 1150px auto;
+  }
+
+  &__container {
+    @include container;
+    padding: 0;
+    width: 100%;
+
+    @include respond-to("medium") {
+      padding: 0 30px;
+    }
+  }
+
   &__title {
     padding: 30px;
     padding-top: 88px;

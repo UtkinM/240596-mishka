@@ -576,6 +576,9 @@ img {
   background: #ffffff;
   color: #000000;
   font-size: 0; }
+  .mishka-logo svg {
+    width: 150px;
+    height: 78px; }
   @media (min-width: 768px) {
     .mishka-logo {
       padding: 0;
@@ -859,6 +862,27 @@ img {
   background-image: url("../../img/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center top; }
+  @media (min-width: 768px) {
+    .promo {
+      border-top: 1px solid #ececec;
+      margin-top: -61px;
+      background-size: 1150px auto; } }
+  .promo__container {
+    width: 81.25%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 30px;
+    padding: 0;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .promo__container {
+        width: 94.8%; } }
+    @media (min-width: 1150px) {
+      .promo__container {
+        width: 96.6%; } }
+    @media (min-width: 768px) {
+      .promo__container {
+        padding: 0 30px; } }
   .promo__title {
     padding: 30px;
     padding-top: 88px;
@@ -1118,6 +1142,7 @@ img {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
+    font-family: "Open Sans", "Arial", sans-serif;
     color: #444444; }
     @media (min-width: 768px) {
       .popular-goods__price {

@@ -9,6 +9,11 @@
   color: $black;
   font-size: 0;
 
+  svg {
+    width: 150px;
+    height: 78px;
+  }
+
   @include respond-to("medium") {
     padding: 0;
     align-self: center;
