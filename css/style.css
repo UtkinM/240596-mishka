@@ -566,6 +566,58 @@ img {
   .button:active {
     color: rgba(250, 250, 250, 0.3); }
 
+.mishka-logo {
+  position: relative;
+  z-index: 1;
+  font-size: 0;
+  text-align: center;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  background: #ffffff;
+  color: #000000;
+  font-size: 0; }
+  @media (min-width: 768px) {
+    .mishka-logo {
+      padding: 0;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+      border-top: 0;
+      border-bottom: 0;
+      text-align: left;
+      transform: translateX(-20px); }
+      .mishka-logo a:hover {
+        fill: rgba(0, 0, 0, 0.5); }
+      .mishka-logo a:active {
+        fill: rgba(0, 0, 0, 0.3); } }
+  @media (min-width: 1150px) {
+    .mishka-logo {
+      -ms-flex-order: 2;
+          order: 2;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      transform: translateX(-35px); } }
+  @media (min-width: 768px) {
+    .mishka-logo__mobile {
+      display: none; } }
+  .mishka-logo__tablet {
+    display: none; }
+    @media (min-width: 768px) {
+      .mishka-logo__tablet {
+        display: inline-block;
+        vertical-align: baseline; } }
+    @media (min-width: 1150px) {
+      .mishka-logo__tablet {
+        display: none; } }
+  .mishka-logo__desktop {
+    display: none; }
+    @media (min-width: 1150px) {
+      .mishka-logo__desktop {
+        display: inline-block;
+        vertical-align: baseline; } }
+
 .main-nav {
   width: 100%;
   text-align: left;
