@@ -1,4 +1,5 @@
 .page-content {
+
   &__title {
     margin: 0;
     margin-bottom: 30px;
@@ -62,6 +63,7 @@
   &__description {
     margin: 0;
     margin-bottom: 17px;
+
     line-height: 1.857;
 
     @include respond-to("medium") {
@@ -70,6 +72,7 @@
       span {
         width: 100%;
         display: inline-block;
+
         vertical-align: baseline;
       }
     }

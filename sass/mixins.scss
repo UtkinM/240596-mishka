@@ -13,6 +13,14 @@
   }
 }
 
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 @mixin wavy-line {
   &::after {
     content: "";
@@ -43,7 +51,6 @@
       @content;
     }
   } @else {
-    @error "Не указано значение для `#{$breakpoint}`. "
-         + "Пожалуйста, убедитесь, что точка остановки объявлена в карте `$breakpoints`.";
+    @error "Не указано значение для `#{$breakpoint}`. "+ "Пожалуйста, убедитесь, что точка остановки объявлена в карте `$breakpoints`.";
   }
 }
