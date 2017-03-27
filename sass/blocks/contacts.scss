@@ -46,6 +46,7 @@
     padding-top: 43px;
     padding-bottom: 25px;
     text-align: left;
+    font-family: "Open Sans", "Arial", sans-serif;
 
     @include respond-to("medium") {
       position: relative;

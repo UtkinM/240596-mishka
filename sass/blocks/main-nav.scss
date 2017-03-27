@@ -3,6 +3,7 @@
   text-align: left;
   position: relative;
   z-index: 2;
+  font-family: "Open Sans", "Arial", sans-serif;
 
   @include respond-to("mobile-only") {
     &--closed .main-nav__list {

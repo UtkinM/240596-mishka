@@ -2,6 +2,7 @@
   position: relative;
   margin-bottom: 60px;
   border: $border-main;
+  font-size: 0;
 
   @include respond-to("medium") {
     margin-bottom: 65px;
@@ -182,6 +183,7 @@
   &__button {
     padding-left: 28px;
     padding-right: 28px;
+    font-size: $font-size--button * 1.1;
 
     @include respond-to("medium") {
       width: 87.5%;
