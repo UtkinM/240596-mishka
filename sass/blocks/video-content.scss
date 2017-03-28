@@ -23,14 +23,14 @@
     margin: 0 auto;
     margin-top: 95px;
     background-color: $gray--light;
-    background-image: url("../../img/video-mobile@1x.jpg");
+    background-image: url("../img/video-mobile@1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 
     @include respond-to("mobile-only") {
       @include respond-to("retina") {
-        background-image: url("../../img/video-mobile@2x.jpg");
+        background-image: url("../img/video-mobile@2x.jpg");
       }
     }
 
@@ -39,10 +39,10 @@
       height: 455px;
       margin-top: 0;
       border-bottom: $border-main;
-      background-image: url("../../img/video-tablet@1x.jpg");
+      background-image: url("../img/video-tablet@1x.jpg");
 
       @include respond-to("retina") {
-        background-image: url("../../img/video-tablet@2x.jpg");
+        background-image: url("../img/video-tablet@2x.jpg");
       }
     }
 
@@ -63,9 +63,9 @@
 
     @include respond-to("large") {
       width: 682px;
-      background-image: url("../../img/video-desktop@1x.jpg");
+      background-image: url("../img/video-desktop@1x.jpg");
       @include respond-to("retina") {
-        background-image: url("../../img/video-desktop@2x.jpg");
+        background-image: url("../img/video-desktop@2x.jpg");
       }
     }
   }
