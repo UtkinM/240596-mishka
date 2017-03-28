@@ -6,11 +6,31 @@
   background-repeat: no-repeat;
   background-position: center top;
 
+  @include respond-to("mobile-only") {
+    @include respond-to("retina") {
+      background-size: 575px auto;
+      background-image: url("../../img/hero-mobile@2x.jpg");
+    }
+  }
+
   @include respond-to("medium") {
     border-top: $border-main;
     margin-top: -61px;
     background-size: 1150px auto;
+    @include respond-to("retina") {
+      background-image: url("../../img/hero-mobile@2x.jpg");
+    }
   }
+
+  @include respond-to("large") {
+    background-image: url("../../img/hero-desktop@1x.jpg");
+
+    @include respond-to("retina") {
+      background-image: url("../../img/hero-desktop@2x.jpg");
+    }
+  }
+
+  @include wavy-line;
 
   &__container {
     @include container;
