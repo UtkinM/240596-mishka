@@ -1,5 +1,6 @@
 .catalog-item {
   margin-bottom: 30px;
+  font-family: "Open Sans", "Arial", sans-serif;
 
   @include respond-to("medium") {
     display: flex;
@@ -62,6 +63,7 @@
   &__name {
     margin: 0;
     margin-bottom: 7px;
+    font-size: 20px;
 
     @include respond-to("medium") {
       margin-bottom: 5px;

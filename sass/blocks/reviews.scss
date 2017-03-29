@@ -2,12 +2,20 @@
   position: relative;
   text-align: center;
 
+  @include wavy-line;
+
   @include respond-to("medium") {
     padding-bottom: 80px;
+
+
     background-image: url("../../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: 0 top;
     background-size: 350px 457px;
+
+    @include respond-to("retina") {
+      background-image: url("../../img/review@2x.jpg");
+    }
   }
 
   @include respond-to("large") {
@@ -26,10 +34,15 @@
     }
 
     @include respond-to("large") {
-      background-image: url("../../img/review@1x.jpg");
+      background-image: url("../img/review@1x.jpg");
       background-repeat: no-repeat;
       background-position: left 30px top;
       background-size: contain;
+
+      @include respond-to("retina") {
+        background-image: url("../img/review@2x.jpg");
+
+      }
     }
   }
 
@@ -62,6 +75,7 @@
   &__item {
     margin: 0;
     margin-bottom: 35px;
+
     text-align: left;
 
     p {
