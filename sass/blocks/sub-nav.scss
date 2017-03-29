@@ -25,6 +25,14 @@
 
     &--toys {
       background-color: $green--dark;
+      &::before {
+        content: "";
+        height: 15px;
+        position: absolute;
+        bottom: -5px;
+        width: 100%;
+        background-color: $green--dark;
+      }
     }
 
     a {
@@ -70,6 +78,7 @@
 
       &:hover {
         transform: translateY(-5px);
+        transition: all 0.2s;;
       }
 
       &:hover .sub-nav__icon {
