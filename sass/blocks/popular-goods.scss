@@ -1,6 +1,7 @@
 .popular-goods {
   background-color: $white;
   color: $black;
+  font-family: $font-open-sans;
 
   @include respond-to("medium") {
     position: relative;
