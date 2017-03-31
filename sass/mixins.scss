@@ -21,6 +21,35 @@
   }
 }
 
+@mixin btn ($fsize: 18px, $width: 222px, $bgcolor: transparent, $color: $gray--darken){
+  background-color: $bgcolor;
+  border: 2px solid $gray--darken;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $white;
+  font-size: $font-size--button;
+  font-family: $font-open-sans;
+  font-weight: 700;
+  width: $width;
+  cursor: pointer;
+  padding: 16px 17px 17px 17px;
+
+  &:hover {
+    background-color: $gray--darken;
+    color: $color-contrast-active;
+  }
+}
+
+@mixin border($side, $width: 1px, $color: $color-border) {
+  @if $side == full {
+    border: $width solid $color;
+  } @else  {
+    border-#{$side}: $width solid $color;
+  }
+}
+
 @mixin wavy-line {
   &::after {
     content: "";
