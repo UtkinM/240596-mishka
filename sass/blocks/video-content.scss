@@ -120,6 +120,8 @@
     top: 0;
     left: 0;
     text-align: left;
+    font-family: $font-open-sans;
+    font-size: 20px;
     padding: 25px;
     padding-top: 25px;
     padding-left: 90px;
@@ -133,7 +135,7 @@
     }
 
     @include respond-to("large") {
-      padding-top: 95px;
+      padding-top: 88px;
       padding-right: 145px;
       padding-bottom: 30px;
       padding-left: 77px;

@@ -54,7 +54,7 @@
     }
 
     @include respond-to("large") {
-      padding-top: 25px;
+      padding-top: 2px;
       width: auto;
       flex-grow: 1;
     }
@@ -100,7 +100,7 @@
     }
 
     @include respond-to("large") {
-      margin-bottom: 15px;
+      margin-bottom: 22px;
     }
   }
 
