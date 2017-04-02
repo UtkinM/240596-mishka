@@ -21,7 +21,6 @@
       background-repeat: repeat-x;
     }
 
-
     @include respond-to("large") {
       margin-bottom: 5px;
       padding-bottom: 20px;

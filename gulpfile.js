@@ -76,10 +76,9 @@ gulp.task("serve", function() {
     ui: false
   });
 
-  gulp.watch(
-    "sass/**/*.{scss,sass}", ["style"]
-  );
-  gulp.watch("*.html").on("change", server.reload);
+  gulp.watch("sass/**/*.{scss,sass}", ["style"]);
+  gulp.watch("build/*.html").on("change", server.reload);
+  gulp.watch("build/js/*.js").on("change", server.reload);
 });
 
 gulp.task("copy", function() {
