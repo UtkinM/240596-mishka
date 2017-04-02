@@ -25,6 +25,7 @@
 
     &--toys {
       background-color: $green--dark;
+
       &::before {
         content: "";
         height: 15px;

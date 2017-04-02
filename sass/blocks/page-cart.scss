@@ -71,9 +71,9 @@
   text-align: center;
 
   @include border(full, 2px);
-  font-family: $font-open-sans;
-  color: $black;
-  cursor: pointer;
+    font-family: $font-open-sans;
+    color: $black;
+    cursor: pointer;
 
   &:hover {
     border-color: $color-title-active;
@@ -82,8 +82,8 @@
 
 .page-cart__btn {
   @include btn(17px, 100%, $green, $white);
-  border: none;
-  padding: 12px;
+    border: none;
+    padding: 12px;
 
   &:hover {
     background-color: $green;
