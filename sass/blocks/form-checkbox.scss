@@ -79,7 +79,7 @@
 
   input[type="checkbox"]:checked + label::after {
     content: "";
-
+    
     position: absolute;
     top: 5px;
     left: 8px;

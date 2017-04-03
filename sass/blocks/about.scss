@@ -11,7 +11,7 @@
 
   &__container {
     @include container;
-
+    
     padding: 0;
 
     @include respond-to("medium") {
