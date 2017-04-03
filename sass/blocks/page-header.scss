@@ -6,7 +6,6 @@
 
     @include respond-to("medium") {
       @include container;
-
       display: flex;
       flex-wrap: wrap;
     }

@@ -25,7 +25,6 @@
 
   &__container {
     @include container;
-
     padding: 0;
 
     @include respond-to("medium") {
@@ -75,7 +74,6 @@
   &__item {
     margin: 0;
     margin-bottom: 35px;
-
     text-align: left;
 
     p {

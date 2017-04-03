@@ -25,6 +25,7 @@
 
     &--toys {
       background-color: $green--dark;
+
       &::before {
         content: "";
         height: 15px;
@@ -91,6 +92,10 @@
     position: absolute;
     top: 23px;
     fill: #35a999;
+
+    &:hover {
+      fill: #5ab1a6;
+    }
 
     @include respond-to("medium") {
       top: 30px;
