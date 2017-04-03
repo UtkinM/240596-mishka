@@ -6,8 +6,6 @@
 
   @include respond-to("medium") {
     padding-bottom: 80px;
-
-
     background-image: url("../../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: 0 top;
@@ -40,7 +38,6 @@
 
       @include respond-to("retina") {
         background-image: url("../img/review@2x.jpg");
-
       }
     }
   }
