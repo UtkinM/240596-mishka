@@ -13,11 +13,13 @@
   color: $gray--darken;
   background: transparent;
   outline: none;
+
   &:hover {
     background: $gray--darken;
     color: $white;
   }
+
   &:active {
     color: rgba(250, 250, 250, 0.3);
-}
+    }
 }
