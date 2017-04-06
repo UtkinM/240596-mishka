@@ -32,7 +32,7 @@
 
   @include wavy-line;
 
-  &__container {
+  .promo__container {
     @include container;
     padding: 0;
     width: 100%;
@@ -42,7 +42,7 @@
     }
   }
 
-  &__title {
+  .promo__title {
     padding: 30px;
     padding-top: 88px;
     padding-bottom: 123px;
