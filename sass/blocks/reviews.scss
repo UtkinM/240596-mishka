@@ -21,7 +21,7 @@
     background: none;
   }
 
-  &__container {
+  .reviews__container {
     @include container;
     padding: 0;
 
@@ -42,7 +42,7 @@
     }
   }
 
-  &__title {
+  .reviews__title {
     margin: 0;
     padding-top: 33px;
     padding-bottom: 25px;
@@ -61,14 +61,14 @@
     }
   }
 
-  &__list {
+  .reviews__list {
 
     @include respond-to("medium") {
       position: relative;
     }
   }
 
-  &__item {
+  .reviews__item {
     margin: 0;
     margin-bottom: 35px;
     text-align: left;
@@ -124,7 +124,7 @@
     }
   }
 
-  &__button {
+  .reviews__button {
     padding-left: 84px;
     padding-right: 84px;
     margin-bottom: 45px;

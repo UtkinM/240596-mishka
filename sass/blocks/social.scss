@@ -23,7 +23,7 @@
     }
   }
 
-  &__link {
+  .social__link {
 
     @include respond-to("medium") {
 
@@ -37,7 +37,7 @@
     }
   }
 
-  &__icon {
+  .social__icon {
 
     &--insta {
       width: 22px;

@@ -1,7 +1,7 @@
 .page-footer {
   background: $gray--light;
 
-  &__container {
+  .page-footer__container {
     @include container;
     padding: 0;
 
@@ -13,7 +13,7 @@
     }
   }
 
-  &__logo {
+  .page-footer__logo {
     display: none;
 
     @include respond-to("medium") {
@@ -23,7 +23,7 @@
     }
   }
 
-  &__mishka {
+  .page-footer__mishka {
     fill: $black;
 
     @include respond-to("medium") {
@@ -38,7 +38,7 @@
     }
   }
 
-  &__copyright {
+  .page-footer__copyright {
     padding-top: 25px;
     padding-bottom: 23px;
     white-space: nowrap;

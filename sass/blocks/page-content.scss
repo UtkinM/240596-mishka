@@ -1,6 +1,6 @@
 .page-content {
 
-  &__title {
+  .page-content__title {
     margin: 0;
     margin-bottom: 30px;
     padding-top: 65px;
@@ -54,7 +54,7 @@
     }
   }
 
-  &__container {
+  .page-content__container {
     @include container;
 
     padding: 0;
@@ -64,7 +64,7 @@
     }
   }
 
-  &__description {
+  .page-content__description {
     margin: 0;
     margin-bottom: 17px;
     line-height: 1.857;

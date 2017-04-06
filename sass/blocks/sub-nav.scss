@@ -10,7 +10,7 @@
     flex-wrap: wrap;
   }
 
-  &__item {
+  .sub-nav__item {
     position: relative;
 
     &::after {
@@ -88,7 +88,7 @@
     }
   }
 
-  &__icon {
+  .sub-nav__icon {
     position: absolute;
     top: 23px;
     fill: #35a999;

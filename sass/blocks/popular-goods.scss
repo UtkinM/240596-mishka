@@ -27,7 +27,7 @@
     }
   }
 
-  &__container {
+  .popular-goods__container {
     @include container;
 
     padding: 0;
@@ -37,7 +37,7 @@
     }
   }
 
-  &__title {
+  .popular-goods__title {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@
     }
   }
 
-  &__title-main {
+  .popular-goods__title-main {
     margin-bottom: 5px;
     width: 100%;
     flex-grow: 1;
@@ -77,7 +77,7 @@
     }
   }
 
-  &__title-note {
+  .popular-goods__title-note {
     font-size:  $font-size;
     font-family: $font-open-sans;
     line-height: 1;
@@ -98,7 +98,7 @@
     }
   }
 
-  &__wrapper {
+  .popular-goods__wrapper {
 
     @include respond-to("medium") {
       @include clearfix;
@@ -109,7 +109,7 @@
     }
   }
 
-  &__column-left {
+  .popular-goods__column-left {
 
     @include respond-to("medium") {
       float: left;
@@ -122,7 +122,7 @@
     }
   }
 
-  &__description {
+  .popular-goods__description {
     margin-top: 0;
     margin-bottom: 18px;
     text-align: left;
@@ -137,7 +137,7 @@
     }
   }
 
-  &__detail {
+  .popular-goods__detail {
     width: 100%;
     margin-bottom: 25px;
     text-align: left;
@@ -172,7 +172,7 @@
     }
   }
 
-  &__photo {
+  .popular-goods__photo {
     height: 315px;
     margin-bottom: 25px;
     text-align: center;
@@ -193,7 +193,7 @@
     }
   }
 
-  &__price {
+  .popular-goods__price {
     margin-bottom: 25px;
     font-size: $font-size;
     font-weight: 700;
@@ -213,7 +213,7 @@
     }
   }
 
-  &__button {
+  .popular-goods__button {
     padding-left: 86px;
     padding-right: 86px;
     margin-bottom: 35px;
